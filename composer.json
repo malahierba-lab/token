@@ -1,0 +1,27 @@
+{
+    "name": "malahierba-lab/token",
+    "description": "Laravel token manager for password reset, account activation... and more. Laravel Cache Facade Based",
+    "keywords": [
+        "laravel",
+        "token",
+        "password reset",
+        "Cache"
+    ],
+    "license" : "MIT",
+    "authors": [
+        {
+            "name": "malahierba team",
+            "email": "lab@malahierba.cl",
+            "homepage": "http://malahierba.cl"
+        }
+    ],
+    "require": {
+        "php": ">=5.6",
+        "laravel/framework": "5.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Malahierba\\Token\\": "src/"
+        }
+    }
+}
