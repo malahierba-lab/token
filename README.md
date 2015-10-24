@@ -60,7 +60,7 @@ You can validate a token entered by an user or when come from url (for example i
         
 **4.- Delete the Token**
 
-When you don't need the token (for example, your user already setup a new password in password reset lifecycle) you can delete it:
+When you don't need the token anymore (for example, your user already setup a new password in password reset lifecycle) you can delete it:
 
     $token->delete();
     
