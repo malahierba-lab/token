@@ -1,6 +1,6 @@
 # Laravel Token
 
-A tool for easy public token implementation in some commons tasks: password reset, account activation, etc. In general, when need to send a token through mail (for example). We are developed with Laravel 5.x in mind.
+A tool for easy public token implementation in some common tasks: password reset, account activation, etc. In general, when need to send a token through mail (for example). We are developed with Laravel 5.x in mind.
 
 ## Installation
 
