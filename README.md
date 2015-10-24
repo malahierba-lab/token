@@ -56,7 +56,7 @@ If no previous token exists (or previous token is expired), then you will get a 
 You can validate a token entered by an user or when come from url (for example if you mail a link for password reset with the token as parameter):
 
     if ($token->check($string))
-        // code for token valid
+        // code for token validated
         
 **4.- Delete the Token**
 
