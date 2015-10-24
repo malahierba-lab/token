@@ -26,7 +26,7 @@ You can generate a token for any model (Eloquent/Model) in your project. In this
 
 **1.- Make a Token Instance**
 
-    //Get a Model Instance... in this case, User instance.
+    //Get a Model Instance... in this case, a User instance.
     $user = User::find(1);
     
     // Create a password reset token instance
@@ -49,7 +49,7 @@ You can generate a token for any model (Eloquent/Model) in your project. In this
 
     $token_str = $token->get();
     
-If no previous token exists (or previous token is expired), then you will get a new randomly generated string. If previous token exists (and is not expired yet) the you get that token.
+If no previous token exists (or previous token is expired), then you will get a new randomly generated string. If previous token exists (and is not expired yet) then you get that token.
 
 **3.- Check the Token**
 
